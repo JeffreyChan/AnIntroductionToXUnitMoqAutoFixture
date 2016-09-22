@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnIntroductionToXUnitMoqAutoFixture.Tests", "AnIntroductionToXUnitMoqAutoFixture.Tests\AnIntroductionToXUnitMoqAutoFixture.Tests.csproj", "{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnIntroductionToXUnitMoqAutoFixture", "AnIntroductionToXUnitMoqAutoFixture\AnIntroductionToXUnitMoqAutoFixture.csproj", "{0FAB8092-1EE9-43BC-A80A-B9DE4963F05A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAB8092-1EE9-43BC-A80A-B9DE4963F05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAB8092-1EE9-43BC-A80A-B9DE4963F05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAB8092-1EE9-43BC-A80A-B9DE4963F05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAB8092-1EE9-43BC-A80A-B9DE4963F05A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
