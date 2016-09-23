@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using AnIntroductionToXUnitMoqAutoFixture.Product;
+using AnIntroductionToXUnitMoqAutoFixture.ProductExample;
 using Moq;
 using Ploeh.AutoFixture;
 using Ploeh.AutoFixture.AutoMoq;
 using Xunit;
 
-namespace AnIntroductionToXUnitMoqAutoFixture
+namespace AnIntroductionToXUnitMoqAutoFixtureTests
 {
     public class ProductServiceMoqAutoFixtureTests
     {
@@ -16,7 +16,7 @@ namespace AnIntroductionToXUnitMoqAutoFixture
             var fixture = new Fixture()
                 .Customize(new AutoMoqCustomization());
 
-            var productList = fixture.Create<List<Product.Product>>();
+            var productList = fixture.Create<List<Product>>();
             const decimal price = 0.50m;
 
             var database = fixture.Freeze<Mock<IDatabase>>();
@@ -35,7 +35,7 @@ namespace AnIntroductionToXUnitMoqAutoFixture
             var fixture = new Fixture()
                 .Customize(new AutoMoqCustomization());
 
-            var product = fixture.Create<Product.Product>();
+            var product = fixture.Create<Product>();
             var database = fixture.Freeze<Mock<IDatabase>>();
 
             var sut = fixture.Create<ProductService>();

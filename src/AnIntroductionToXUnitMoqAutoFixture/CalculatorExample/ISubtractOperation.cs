@@ -1,4 +1,4 @@
-﻿namespace AnIntroductionToXUnitMoqAutoFixture.Calculator
+﻿namespace AnIntroductionToXUnitMoqAutoFixture.CalculatorExample
 {
     public interface ISubtractOperation
     {

@@ -1,14 +1,15 @@
 ﻿using System;
+using AnIntroductionToXUnitMoqAutoFixture.CalculatorExample;
 
-namespace AnIntroductionToXUnitMoqAutoFixture
+namespace AnIntroductionToXUnitMoqAutoFixtureTests
 {
     public class CalculatorFixture : IDisposable
     {
-        public Calculator.Calculator Calculator { get; }
+        public Calculator Calculator { get; }
 
         public CalculatorFixture()
         {
-            Calculator = new Calculator.Calculator();
+            Calculator = new Calculator();
         }
 
         public void Dispose()

@@ -7,8 +7,8 @@
     <ProjectGuid>{21A0D64B-B75D-4482-8FB8-625AC1F64ED0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AnIntroductionToXUnitMoqAutoFixture</RootNamespace>
-    <AssemblyName>AnIntroductionToXUnitMoqAutoFixture</AssemblyName>
+    <RootNamespace>AnIntroductionToXUnitMoqAutoFixtureTests</RootNamespace>
+    <AssemblyName>AnIntroductionToXUnitMoqAutoFixtureTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

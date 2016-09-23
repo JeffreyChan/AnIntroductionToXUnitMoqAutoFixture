@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-namespace AnIntroductionToXUnitMoqAutoFixture.Product
+namespace AnIntroductionToXUnitMoqAutoFixture.ProductExample
 {
     public class GetProducts : IQuery<IEnumerable<Product>>
     {

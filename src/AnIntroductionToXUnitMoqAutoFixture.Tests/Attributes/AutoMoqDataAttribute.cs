@@ -2,7 +2,7 @@ using Ploeh.AutoFixture;
 using Ploeh.AutoFixture.AutoMoq;
 using Ploeh.AutoFixture.Xunit2;
 
-namespace AnIntroductionToXUnitMoqAutoFixture.Attributes
+namespace AnIntroductionToXUnitMoqAutoFixtureTests.Attributes
 {
     public class AutoMoqDataAttribute : AutoDataAttribute
     {

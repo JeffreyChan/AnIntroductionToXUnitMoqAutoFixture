@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace AnIntroductionToXUnitMoqAutoFixture
+namespace AnIntroductionToXUnitMoqAutoFixtureTests
 {
     public sealed class FactAndTheories
     {

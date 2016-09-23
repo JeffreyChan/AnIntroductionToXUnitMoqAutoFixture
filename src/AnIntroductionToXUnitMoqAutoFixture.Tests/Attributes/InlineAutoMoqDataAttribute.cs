@@ -1,7 +1,7 @@
 using Ploeh.AutoFixture.Xunit2;
 using Xunit;
 
-namespace AnIntroductionToXUnitMoqAutoFixture.Attributes
+namespace AnIntroductionToXUnitMoqAutoFixtureTests.Attributes
 {
     public class InlineAutoMoqDataAttribute : CompositeDataAttribute
     {

@@ -1,4 +1,4 @@
-namespace AnIntroductionToXUnitMoqAutoFixture.Product
+namespace AnIntroductionToXUnitMoqAutoFixture.ProductExample
 {
     public class Product
     {

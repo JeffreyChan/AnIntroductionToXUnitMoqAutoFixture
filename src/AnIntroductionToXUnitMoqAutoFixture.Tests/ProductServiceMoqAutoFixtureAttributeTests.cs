@@ -1,17 +1,17 @@
 using System.Collections.Generic;
 using System.Linq;
-using AnIntroductionToXUnitMoqAutoFixture.Attributes;
-using AnIntroductionToXUnitMoqAutoFixture.Product;
+using AnIntroductionToXUnitMoqAutoFixture.ProductExample;
+using AnIntroductionToXUnitMoqAutoFixtureTests.Attributes;
 using Moq;
 using Ploeh.AutoFixture.Xunit2;
 using Xunit;
 
-namespace AnIntroductionToXUnitMoqAutoFixture
+namespace AnIntroductionToXUnitMoqAutoFixtureTests
 {
     public class ProductServiceMoqAutoFixtureAttributeTests
     {
         [Theory, AutoMoqData]
-        public void When_AddProductCalled_IDatabaseCalledWithCorrectParameters(Product.Product product, [Frozen]Mock<IDatabase> database, ProductService sut)
+        public void When_AddProductCalled_IDatabaseCalledWithCorrectParameters(Product product, [Frozen]Mock<IDatabase> database, ProductService sut)
         {
             sut.AddProduct(product);
 
@@ -21,7 +21,7 @@ namespace AnIntroductionToXUnitMoqAutoFixture
         [Theory]
         [InlineAutoMoqData(1.5)]
         [InlineAutoMoqData(1.9)]
-        public void When_GetAllProductsUnderPriceCalled_AllProductsReturned(decimal price, List<Product.Product> productList,
+        public void When_GetAllProductsUnderPriceCalled_AllProductsReturned(decimal price, List<Product> productList,
             [Frozen]Mock<IDatabase> database, ProductService sut)
         {
             database.Setup(_ => _.Execute(It.Is<GetProducts>(p => p.Price == price))).Returns(productList);

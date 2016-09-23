@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace AnIntroductionToXUnitMoqAutoFixture.Product
+namespace AnIntroductionToXUnitMoqAutoFixture.ProductExample
 {
     public class ProductService
     {

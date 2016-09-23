@@ -1,6 +1,6 @@
 using System.Data;
 
-namespace AnIntroductionToXUnitMoqAutoFixture.Product
+namespace AnIntroductionToXUnitMoqAutoFixture.ProductExample
 {
     public interface ICommand
     {

@@ -40,16 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator\Calculator.cs" />
-    <Compile Include="Calculator\IAddOperation.cs" />
-    <Compile Include="Calculator\ISubtractOperation.cs" />
-    <Compile Include="Product\AddProduct.cs" />
-    <Compile Include="Product\GetProducts.cs" />
-    <Compile Include="Product\ICommand.cs" />
-    <Compile Include="Product\IDatabase.cs" />
-    <Compile Include="Product\IQuery.cs" />
-    <Compile Include="Product\Product.cs" />
-    <Compile Include="Product\ProductService.cs" />
+    <Compile Include="CalculatorExample\Calculator.cs" />
+    <Compile Include="CalculatorExample\IAddOperation.cs" />
+    <Compile Include="CalculatorExample\ISubtractOperation.cs" />
+    <Compile Include="ProductExample\AddProduct.cs" />
+    <Compile Include="ProductExample\GetProducts.cs" />
+    <Compile Include="ProductExample\ICommand.cs" />
+    <Compile Include="ProductExample\IDatabase.cs" />
+    <Compile Include="ProductExample\IQuery.cs" />
+    <Compile Include="ProductExample\Product.cs" />
+    <Compile Include="ProductExample\ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
